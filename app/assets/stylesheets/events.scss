@@ -1,0 +1,25 @@
+// Place all the styles related to the Events controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container-fluid {
+    margin: 10px 0px 20px;
+}
+h2 {
+    background-color: crimson;
+    border-radius: 5px;
+    padding: 6px;
+    margin: auto;
+    color: #fff;
+}
+.add_form {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+a:link, a:visited {
+    color: crimson;
+}
+.link a:hover, a:active {
+    color: black;
+}
+

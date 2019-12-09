@@ -1,0 +1,26 @@
+
+<div class="container-fluid">
+    <div class="link">
+        <a href="/events">Events Dashboard</a>
+    </div>
+    <h1><%= @event.name %></h1>
+    <p>Host: <%= @event.user.first_name %> <%= @event.user.last_name %></p>
+    <p>Date: <%= @event.date %></p>
+    <p>Location: <%= @event.city %>, <%= @event.state %></p>
+    <p>People who are joining the event: <%= @event.attendees.count %></p>
+
+    <table class="table table-sm table-bordered">
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>State</th>
+        </tr>
+        <% @event.attendees.each do |attendee| %>
+            <tr>
+                <td><%= attendee.user.first_name %> <%= attendee.user.last_name %></td>
+                <td><%= attendee.user.city %></td>
+                <td><%= attendee.user.state %></td>
+            </tr>
+        <% end %>
+    </table>
+</div>

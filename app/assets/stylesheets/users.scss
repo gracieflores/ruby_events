@@ -1,0 +1,42 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+    border-radius: 5px;
+    background-color: crimson;
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    color: white;
+}
+h3 {
+    text-align: center;
+    padding: 5px;
+}
+.col {
+    border: 1px solid black;
+    box-shadow: 3px 5px gray;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 20px;
+}
+h2 {
+    background-color: crimson;
+    border-radius: 5px;
+    padding: 8px;
+    margin: auto;
+    color: white;
+}
+.info{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+a:link, a:visited {
+    color: crimson;
+}
+.link a:hover, a:active {
+    color: black;
+}
+
